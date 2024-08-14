@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(3, 71, 103);
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    margin-top: 30px;
+    color: white;
+}
+.header{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 550px;
+}
+h1{
+    font-size: 1.3rem;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.formu{
+   width: 40%;
+   height: 550px;
+   background-color: rgb(241, 253, 221);
+   border-radius: 15px;
+   overflow: hidden;
+}
+.title{
+    color: white;
+    background-color: rgb(93, 167, 224);
+    border-bottom: solid brown 5px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.text{
+    font-size: 1.8rem;
+}
+.input-50{
+    width: 45%;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(240, 216, 108);
+    border: solid rgb(0, 0, 0) 1px;
+    border-radius: 5px;
+}
+.input-100{
+    width: 92%;
+    height: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(240, 216, 108);
+    border: solid rgb(0, 0, 0) 1px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.input-100::placeholder{
+    color: black;
+    font-size: 20px;
+}
+.input-50::placeholder{
+    color: black;
+    font-size: 20px;
+}
+.button{
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(124, 9, 9);
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.button:hover{
+    margin: 10px;
+    background-color: rgb(208, 29, 17);
+}
